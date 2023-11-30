@@ -1,6 +1,7 @@
-.nav-container {
+.navbar-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: grey;
 }
 
 
@@ -8,4 +9,27 @@
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.img-card {
+  
+}
+
+.card-container {
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+
+.shoes-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 10px;
+}
+
+.footer {
+  display: flex;
+  background-color: #808080;
+  padding: 10px;
 }
