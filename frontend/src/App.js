@@ -1,5 +1,8 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home'
 
 
 
@@ -22,59 +25,13 @@ function App() {
         </div>
       </div>
 
-      <div>
-        <div style={{ height: "300px", backgroundColor: "#EEEEEE" }}>
-          [imageframe]
-        </div>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='Shop' element={<h1>Shop</h1>}/>
+        </Routes>
+      </BrowserRouter>
 
-      <div className="card-container">
-        <div>
-          <div className="img-card" style={{ height: "300px", width: "350px", backgroundColor: "#CCCCCC" }} />
-          <h3>MEN SHOES COLLECTION</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          <button type="button">button</button>
-        </div>
-        <div>
-          <div className="img-card" style={{ height: "300px", width: "350px", backgroundColor: "#CCCCCC" }} />
-          <h3>WOMEN SHOES COLLECTION</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          <button type="button">button</button>
-        </div>
-        <div>
-          <div className="img-card" style={{ height: "300px", width: "350px", backgroundColor: "#CCCCCC" }} />
-          <h3>MEN SHOES COLLECTION</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          <button type="button">button</button>
-        </div>
-      </div>
-
-      <div className="shoes-container">
-        <div>
-          <div className="img-card" style={{ height: "250px", width: "250px", backgroundColor: "#CCCCCC" }} />
-          <h3>Shoes name</h3>
-          <p>$ 425.50</p>
-          <button type="button">button</button>
-        </div>
-        <div>
-          <div className="img-card" style={{ height: "250px", width: "250px", backgroundColor: "#CCCCCC" }} />
-          <h3>Shoes name</h3>
-          <p>$ 425.50</p>
-          <button type="button">button</button>
-        </div>
-        <div>
-          <div className="img-card" style={{ height: "250px", width: "250px", backgroundColor: "#CCCCCC" }} />
-          <h3>Shoes name</h3>
-          <p>$ 425.50</p>
-          <button type="button">button</button>
-        </div>
-      </div>
-
-      <div className="footer">
-        <p>[logo]</p>
-        <p>[logo]</p>
-        <p>[logo]</p>
-      </div>
 
 
     </>
