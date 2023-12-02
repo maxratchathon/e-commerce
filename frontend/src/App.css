@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Prompt&display=swap');
+
+body {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Prompt', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
 .navbar-container {
   display: flex;
   justify-content: space-around;
-  background-color: grey;
+  background-color: white;
+  align-items: center;
+
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
 }
 
 
@@ -11,25 +29,72 @@
   justify-content: center;
 }
 
+.hero-image {
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
+
+}
+.hero-text {
+  padding: 30px;
+  color: rgb(2, 47, 7);
+  text-align: end;
+}
+
 .img-card {
-  
+  min-width: 200px;
+  aspect-ratio: 1/1;
+  background-color: #cecece;
+  border-radius: 5px;
 }
 
 .card-container {
   display: flex;
-  margin: 10px;
-  gap: 10px;
+  margin: 20px;
+  gap: 20px;
 }
+
+.shop-btn {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  border: none;
+  padding: 20px;
+}
+
+
+
 
 .shoes-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: 10px;
-  gap: 10px;
+}
+
+.shoes-card {
+
+}
+
+.img-card {
+  width: 300px;
+  margin: 10px;
+  aspect-ratio: 1/1;
+}
+
+.shoes-name {
+  width: 300px;
+  margin: 10px;
+  text-wrap: wrap;
+}
+
+.shoes-price {
+  margin: 10px;
 }
 
 .footer {
   display: flex;
-  background-color: #808080;
+  background-color: #cecece;
   padding: 10px;
 }
+

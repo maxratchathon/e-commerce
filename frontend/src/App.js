@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
+import Navbar from './components/Navbar';
+
 
 
 
@@ -10,20 +12,7 @@ import Home from './pages/Home'
 function App() {
   return (
     <>
-      <div className='navbar-container'>
-        <div>
-          <h2>EverShop</h2>
-        </div>
-        <div>
-          <a>Men</a>
-          <a>Women</a>
-        </div>
-        <div>
-          <a>[icon]</a>
-          <a>[icon]</a>
-          <a>[icon]</a>
-        </div>
-      </div>
+      <Navbar/>
 
       <BrowserRouter>
         <Routes>
