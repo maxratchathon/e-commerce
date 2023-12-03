@@ -1,16 +1,16 @@
 import React from 'react'
-import Catalogue from '../components/Catalogue'
 import Breadcrumb from '../components/Breadcrumb'
-import style from './Kids.module.css'
+import Catalogue from '../components/Catalogue'
 import Footer from '../components/Footer'
+import style from './Men.module.css'
 
-const Kids = () => {
-    const pageName = "KIDS"
+
+const Men = ({pageName}) => {
     return (
         <>
             <div className={style.pageBody}>
                 <Breadcrumb />
-                <Catalogue pageName={pageName} />
+                <Catalogue pageName="MEN" />
 
             </div>
             <Footer />
@@ -18,4 +18,4 @@ const Kids = () => {
     )
 }
 
-export default Kids
+export default Men

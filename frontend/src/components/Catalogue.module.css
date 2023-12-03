@@ -28,11 +28,21 @@
 .panelContainer {
     background-color: #eeeeee;
     text-wrap: nowrap;
-    padding: 50px;
+    min-width: 100px;
     margin: 10px 0px;
 }
 
 .panelColor {
     display: flex;
     flex-direction: column;
+}
+
+.checkboxContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
 }
