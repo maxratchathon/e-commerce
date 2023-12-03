@@ -27,6 +27,12 @@ body {
   gap: 10px;
 }
 
+.logo {
+  border: 3px solid black;
+  padding: 5px 10px;
+  font-weight: bolder;
+}
+
 
 .pic-container {
   align-items: center;
@@ -52,7 +58,6 @@ body {
   min-width: 200px;
   aspect-ratio: 1/1;
   background-color: #cecece;
-  border-radius: 5px;
 }
 
 .card-container {
@@ -75,7 +80,6 @@ body {
 .shop-img {
   width: 300px;
   aspect-ratio: 1/1;
-  border-radius: 5px;
 }
 
 
