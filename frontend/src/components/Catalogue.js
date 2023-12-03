@@ -17,8 +17,8 @@ const Catalogue = ({ pageName }) => {
                 <div>
                     <div className={catalogue.panelContainer}>
                         <h3>SHOP BY</h3>
-                        <div className={catalogue.panelColor}>
-                            <p>COLOR</p>
+                        <div className={catalogue.panelProp}>
+                            <h3>COLOR</h3>
                             <div className={catalogue.checkboxContainer}>
                                 <div>
                                     <input type="checkbox" id='checkbox-white' name="color" value="white" onClick={onClickHandler} />
@@ -38,8 +38,8 @@ const Catalogue = ({ pageName }) => {
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <p>SIZE</p>
+                        <div className={catalogue.panelProp}>
+                            <h3>SIZE</h3>
                             <div className={catalogue.checkboxContainer}>
                                 <div>
                                     <input type="checkbox" id='checkbox-size-xl' name="size-xl" value="xl" onClick={onClickHandler} />
@@ -60,16 +60,57 @@ const Catalogue = ({ pageName }) => {
                             </div>
                         </div>
 
-                        <p>BRAND</p>
+                        <div className={catalogue.panelProp}>
+                            <h3>BRAND</h3>
+                            <div className={catalogue.checkboxContainer}>
+                                <div>
+                                    <input type="checkbox" id='checkbox-size-xl' name="brand-nike" value="nike" onClick={onClickHandler} />
+                                    <label for="checkbox-nike">Nike</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id='checkbox-size-l' name="brand-adidas" value="adidas" onClick={onClickHandler} />
+                                    <label for="checkbox-addidas">Adidas</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id='checkbox-size-M' name="brand-converse" value="converse" onClick={onClickHandler} />
+                                    <label for="checkbox-white">converse</label>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div className={catalogue.cardContainer}>
-                    <p className={catalogue.itemImg}>item image</p>
-                    <p className={catalogue.itemImg}>item image</p>
-                    <p className={catalogue.itemImg}>item image</p>
-                    <p className={catalogue.itemImg}>item image</p>
-                    <p className={catalogue.itemImg}>item image</p>
-                    <p className={catalogue.itemImg}>item image</p>
+                    <div className={catalogue.card}>
+                        <p className={catalogue.itemImg}>item image</p>
+                        <h3 className={catalogue.itemName}>Nike Air Force 1</h3>
+                        <p>$ 235.35</p>
+                    </div>
+                    <div className={catalogue.card}>
+                        <p className={catalogue.itemImg}>item image</p>
+                        <h3 className={catalogue.itemName}>Nike Air Force 1</h3>
+                        <p>$ 235.35</p>
+                    </div>
+                    <div className={catalogue.card}>
+                        <p className={catalogue.itemImg}>item image</p>
+                        <h3 className={catalogue.itemName}>Nike Air Force 1</h3>
+                        <p>$ 235.35</p>
+                    </div>
+                    <div className={catalogue.card}>
+                        <p className={catalogue.itemImg}>item image</p>
+                        <h3 className={catalogue.itemName}>Nike Air Force 1</h3>
+                        <p>$ 235.35</p>
+                    </div>
+                    <div className={catalogue.card}>
+                        <p className={catalogue.itemImg}>item image</p>
+                        <h3 className={catalogue.itemName}>Nike Air Force 1</h3>
+                        <p>$ 235.35</p>
+                    </div>
+                    <div className={catalogue.card}>
+                        <p className={catalogue.itemImg}>item image</p>
+                        <h3 className={catalogue.itemName}>Nike Air Force 1</h3>
+                        <p>$ 235.35</p>
+                    </div>
 
                 </div>
             </div>

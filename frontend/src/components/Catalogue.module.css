@@ -32,9 +32,8 @@
     margin: 10px 0px;
 }
 
-.panelColor {
-    display: flex;
-    flex-direction: column;
+.panelProp {
+    line-height: 0px;
 }
 
 .checkboxContainer {
@@ -45,4 +44,8 @@
 .break {
     flex-basis: 100%;
     height: 0;
+}
+
+.card {
+    line-height: 3px;
 }
