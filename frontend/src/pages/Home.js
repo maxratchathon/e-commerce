@@ -69,11 +69,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="footer">
-                <p>[logo]</p>
-                <p>[logo]</p>
-                <p>[logo]</p>
-            </div>
+
         </>
     )
 }

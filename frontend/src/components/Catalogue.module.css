@@ -4,3 +4,35 @@
     padding-left: 40px;
     font-size: 60px;
 }
+
+.catalogueContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.itemImg {
+    display: flex;
+    width: 250px;
+    aspect-ratio: 1/1;
+    background-color: #cecece;
+    justify-content: center;
+    align-items: center;
+}
+
+.panelContainer {
+    background-color: #eeeeee;
+    text-wrap: nowrap;
+    padding: 50px;
+    margin: 10px 0px;
+}
+
+.panelColor {
+    display: flex;
+    flex-direction: column;
+}
