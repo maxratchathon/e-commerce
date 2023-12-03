@@ -3,6 +3,7 @@ import shoesBg from '../images/shoes-bg.jpg'
 import menShop from '../images/men-shop.jpg'
 import womenShop from '../images/women-shop.jpg'
 import kidsShop from '../images/kids-shop.jpg'
+import style from './Home.module.css'
 
 
 
@@ -21,7 +22,7 @@ const Home = () => {
             <div className="card-container">
                 <div className='card'>
                     <img className='shop-img' src={kidsShop} />
-                    <h3>MEN SHOES COLLECTION</h3>
+                    <h3>KIDS SHOES COLLECTION</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <a href='kids'>
                         <button className='shop-btn' type="button">SHOP KIDS</button>
@@ -29,7 +30,7 @@ const Home = () => {
                 </div>
                 <div className='card'>
                     <img className='shop-img' src={menShop} />
-                    <h3>WOMEN SHOES COLLECTION</h3>
+                    <h3>MEN SHOES COLLECTION</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <a href='men'>
                         <button className='shop-btn' type="button">SHOP MENS</button>
@@ -38,7 +39,7 @@ const Home = () => {
                 </div>
                 <div className='card'>
                     <img className='shop-img' src={womenShop} />
-                    <h3>MEN SHOES COLLECTION</h3>
+                    <h3>WOMEN SHOES COLLECTION</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <a href='women'>
                         <button className='shop-btn' type="button">SHOP WOMEN</button>
