@@ -23,7 +23,7 @@ const Home = () => {
                     <img className='shop-img' src={kidsShop} />
                     <h3>MEN SHOES COLLECTION</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <a href='#'>
+                    <a href='kids'>
                         <button className='shop-btn' type="button">SHOP KIDS</button>
                     </a>
                 </div>
@@ -31,7 +31,7 @@ const Home = () => {
                     <img className='shop-img' src={menShop} />
                     <h3>WOMEN SHOES COLLECTION</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <a href='#'>
+                    <a href='men'>
                         <button className='shop-btn' type="button">SHOP MENS</button>
 
                     </a>
@@ -40,7 +40,7 @@ const Home = () => {
                     <img className='shop-img' src={womenShop} />
                     <h3>MEN SHOES COLLECTION</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <a href='#'>
+                    <a href='women'>
                         <button className='shop-btn' type="button">SHOP WOMEN</button>
                     </a>
                 </div>

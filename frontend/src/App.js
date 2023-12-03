@@ -4,6 +4,8 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
 import Navbar from './components/Navbar';
+import Kids from './pages/Kids';
+import Catalogue from './components/Catalogue';
 
 
 
@@ -17,7 +19,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='Shop' element={<h1>Shop</h1>}/>
+          <Route path='kids' element={<Kids/>}/>
+          <Route path='men' element={<h1>men shop</h1>}/>
+          <Route path='women' element={<h1>women shop</h1>}/>
         </Routes>
       </BrowserRouter>
 

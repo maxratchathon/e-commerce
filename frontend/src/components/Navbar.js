@@ -6,14 +6,14 @@ const navbar = () => {
     return (
         <div className='navbar-container'>
             <div className='navbar'>
-                <a href='#'>
+                <a href='/'>
                     <h3 className='logo' >MAXSHOP</h3>
 
                 </a>
             </div>
             <div className='navbar'>
-                <a href='#'>Men</a>
-                <a href='#'>Women</a>
+                <a href='men'>Men</a>
+                <a href='women'>Women</a>
             </div>
             <div className='navbar'>
                 <a href='#'><AiOutlineSearch size={30}/></a>
