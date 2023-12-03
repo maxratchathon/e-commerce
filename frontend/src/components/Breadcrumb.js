@@ -2,7 +2,7 @@ import React from 'react'
 
 const Breadcrumb = () => {
   return (
-    <div>Breadcrumb</div>
+    <div className='mx-100'>Breadcrumb</div>
   )
 }
 

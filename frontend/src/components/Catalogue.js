@@ -1,10 +1,13 @@
 import React from 'react'
-import '../css/catalogue.css'
+import style from './Catalogue.module.css'
 
 const Catalogue = ({ pageName }) => {
     return (
         <>
-            <div className='page-name-banner'>{pageName}</div>
+
+            <div className={style.pageName}>
+                {pageName}
+            </div>
         </>
     )
 }
