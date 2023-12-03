@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Prompt&display=swap');
+a, button, .img-card {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
 
 body {
   font-family: 'Kanit', sans-serif;

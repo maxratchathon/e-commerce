@@ -4,19 +4,22 @@ const navbar = () => {
     return (
         <div className='navbar-container'>
             <div className='navbar'>
-                <h2>MaxShop</h2>
+                <a href='#'>
+                    <h2 >MaxShop</h2>
+
+                </a>
             </div>
             <div className='navbar'>
-                <a>Men</a>
-                <a>Women</a>
+                <a href='#'>Men</a>
+                <a href='#'>Women</a>
             </div>
             <div className='navbar'>
-                <a>[icon]</a>
-                <a>[icon]</a>
-                <a>[icon]</a>
+                <a href='#'>[icon]</a>
+                <a href='#'>[icon]</a>
+                <a href='#'>[icon]</a>
             </div>
         </div>
-                
+
     )
 }
 
