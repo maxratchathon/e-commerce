@@ -1,5 +1,9 @@
 import React from 'react'
 import shoesBg from '../images/shoes-bg.jpg'
+import menShop from '../images/men-shop.jpg'
+import womenShop from '../images/women-shop.jpg'
+import kidsShop from '../images/kids-shop.jpg'
+
 
 const Home = () => {
     return (
@@ -13,20 +17,20 @@ const Home = () => {
             </div>
 
             <div className="card-container">
-                <div>
-                    <div className="img-card" />
+                <div className='card'>
+                    <img className='shop-img' src={kidsShop} />
                     <h3>MEN SHOES COLLECTION</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <button className='shop-btn' type="button">SHOP KIDS</button>
                 </div>
-                <div>
-                    <div className="img-card" />
+                <div className='card'>
+                    <img className='shop-img' src={menShop} />
                     <h3>WOMEN SHOES COLLECTION</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <button className='shop-btn' type="button">SHOP MENS</button>
                 </div>
-                <div>
-                    <div className="img-card" />
+                <div className='card'>
+                    <img className='shop-img' src={womenShop} />
                     <h3>MEN SHOES COLLECTION</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <button className='shop-btn' type="button">SHOP WOMEN</button>

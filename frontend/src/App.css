@@ -53,7 +53,11 @@ body {
 .card-container {
   display: flex;
   margin: 20px;
-  gap: 20px;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
 }
 
 .shop-btn {
@@ -63,7 +67,11 @@ body {
   padding: 20px;
 }
 
-
+.shop-img {
+  width: 300px;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+}
 
 
 .shoes-container {
